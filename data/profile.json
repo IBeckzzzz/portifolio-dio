@@ -1,7 +1,7 @@
 {
   "name": "Thiago Beck de Andrade",
   "photo": "https://avatars.githubusercontent.com/u/114706247?v=4",
-  "job": "Estágiario de TI",
+  "job": "Estagiário de TI",
   "location": "São José dos Pinhais - PR",
   "phone": "(41) 99231-8497",
   "email": "thiagobeck35@gmail.com",
@@ -10,10 +10,6 @@
       {
         "name": "Nodejs",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
-      },
-      {
-        "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
       },
       {
         "name": "Angular",
@@ -56,26 +52,16 @@
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de jogo de nave",
+      "name": "Curso Ministrado na DIO para a criação de um jogo de nave",
       "url": "https://github.com/IBeckzzzz/space-shooter.git",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
+      "name": "Estagiário de Tecnologia e Inovação / Rottas Construtora e Incorporadora Ltda.",
       "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-    },
-    {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e implantar tantas inovações na empresa como a intranet(sharepoint), criação de apps e fluxos através da power plataform(microsoft) e a participação da implantação do sistema ERP(Enterprise Resource Planning) na empresa."
     }
   ]
 }
