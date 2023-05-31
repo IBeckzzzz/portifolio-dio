@@ -22,15 +22,30 @@ Siga as etapas abaixo para instalar e executar o projeto localmente:
 
 1. Clone este repositório em sua máquina local:
 
-   ```bash
-   git clone https://github.com/IBeckzzzz/portifolio-dio.git
 
 2. Navegue até o diretório do projeto:
 
-  ```bash
-  cd portifolio-dio
-  
+
 3. Instale as dependências do projeto usando o NPM:
 
-```bash
-npm install
+
+4. Inicie o servidor de desenvolvimento:
+
+
+5. Abra o navegador e acesse `http://localhost:4200` para visualizar o projeto.
+
+## Estrutura do projeto
+
+O projeto segue a seguinte estrutura de diretórios:
+
+- `src`: Contém o código-fonte do projeto.
+  - `app`: Contém os componentes principais e serviços do projeto.
+  - `assets`: Contém os arquivos estáticos, como imagens e arquivos de estilo.
+  - `environments`: Contém as configurações de ambiente para diferentes ambientes (desenvolvimento, produção, etc.).
+- `angular.json`: Arquivo de configuração do Angular CLI.
+- `package.json`: Arquivo de manifesto do NPM, contendo as dependências do projeto e scripts de execução.
+
+
+
+
+
