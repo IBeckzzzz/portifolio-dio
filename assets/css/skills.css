@@ -37,13 +37,6 @@
     flex: 1 1 calc(20% - 1rem); /* Ajusta a largura de cada item para ocupar 20% da largura da coluna com espaçamento */
 }
 
-/* Adiciona pontos de tópicos somente nas softskills */
-.skills .personal .softskills li::before {
-    content: '\2022'; /* Código Unicode para o caractere ponto de tópico */
-    color: #000; /* Cor do ponto de tópico (ajuste conforme necessário) */
-    margin-right: 0.5rem; /* Espaçamento entre o ponto de tópico e o texto */
-}
-
 @media only screen and (min-width: 768px) {
     .skills {
         display: grid;
@@ -55,7 +48,6 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        grid-template-columns: unset; /* Remove a configuração de grid nas telas maiores */
         gap: 0; /* Remove o espaçamento entre os itens nas telas maiores */
         margin-left: 0; /* Remove a correção do espaçamento à esquerda */
     }
