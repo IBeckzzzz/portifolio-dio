@@ -1,44 +1,43 @@
 .skills {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.skills .tools ul,
-.skills .personal ul {
+.skills .tools ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.skills .tools ul li,
-.skills .personal ul li {
-    margin: 0.5rem 1rem;
-    padding: 0.5rem;
-    text-align: center;
-}
-
 .skills .tools ul li img {
     max-width: 50px;
     max-height: 50px;
-    margin: 0.5rem 0;
+    margin: 0 .5rem;
+}
+
+.skills .personal ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.skills .personal ul li {
+    margin-left: 2rem;
+    padding: .5rem
 }
 
 @media only screen and (min-width: 768px) {
     .skills {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .skills .tools ul,
-    .skills .personal ul {
-        flex-direction: row;
-    }
-    
-    .skills .personal ul li {
-        margin-left: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
