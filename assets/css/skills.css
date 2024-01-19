@@ -33,6 +33,11 @@
 }
 
 .skills .personal ul li {
+    flex: 1 1 calc(20% - 1rem); /* Ajusta a largura de cada item para ocupar 20% da largura da coluna com espaçamento */
+}
+
+
+.skills .personal ul li {
     margin-left: 2rem;
     padding: .5rem
 }
