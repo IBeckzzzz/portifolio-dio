@@ -23,8 +23,6 @@
 .skills .personal ul {
     display: flex;
     flex-direction: row;
-    grid-template-columns: repeat(5, 1fr); /* 5 colunas com largura igual */
-    grid-template-rows: repeat(2, auto); /* 2 linhas com altura automática */
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
