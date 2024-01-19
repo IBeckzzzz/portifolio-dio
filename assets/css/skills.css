@@ -3,10 +3,11 @@
     flex-direction: column;
 }
 
-.skills .tools ul {
+.skills .tools ul,
+.skills .personal ul {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center; /* Centraliza os itens horizontalmente */
     align-items: center;
     flex-wrap: wrap;
     margin: 0;
@@ -14,30 +15,29 @@
     list-style: none;
 }
 
-.skills .tools ul li img {
-    max-width: 50px;
-    max-height: 50px;
+.skills .tools ul li,
+.skills .personal ul li {
     margin: 0 .5rem;
-}
-
-.skills .personal ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+    padding: .5rem;
 }
 
 .skills .personal ul li {
-    margin-left: 2rem;
-    padding: .5rem
+    margin-left: 0.5rem; /* Reduzido o espaço à esquerda para melhorar o alinhamento */
+}
+
+.skills .tools ul li img {
+    max-width: 50px;
+    max-height: 50px;
 }
 
 @media only screen and (min-width: 768px) {
     .skills {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .skills .tools ul,
+    .skills .personal ul {
+        justify-content: flex-start; /* Volta ao alinhamento à esquerda em telas maiores */
     }
 }
