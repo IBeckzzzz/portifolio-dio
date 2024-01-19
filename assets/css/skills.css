@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    list-style: disc;
+    list-style: none;
 }
 
 .skills .tools ul li,
@@ -35,6 +35,13 @@
 
 .skills .personal ul li {
     flex: 1 1 calc(20% - 1rem); /* Ajusta a largura de cada item para ocupar 20% da largura da coluna com espaçamento */
+}
+
+/* Adiciona pontos de tópicos somente nas softskills */
+.skills .personal .softskills li::before {
+    content: '\2022'; /* Código Unicode para o caractere ponto de tópico */
+    color: #000; /* Cor do ponto de tópico (ajuste conforme necessário) */
+    margin-right: 0.5rem; /* Espaçamento entre o ponto de tópico e o texto */
 }
 
 @media only screen and (min-width: 768px) {
