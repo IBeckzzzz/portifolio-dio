@@ -3,42 +3,41 @@
     flex-direction: column;
 }
 
-.skills .tools ul,
-.skills .personal ul {
+.skills .tools ul {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.skills .tools ul li,
-.skills .personal ul li {
-    margin: 0.5rem; /* Adicionei um espaçamento uniforme */
-    padding: 0.5rem;
-    text-align: center; /* Centraliza o texto */
-    flex: 1 1 calc(50% - 1rem); /* 50% de largura com espaçamento */
-}
-
 .skills .tools ul li img {
     max-width: 50px;
     max-height: 50px;
+    margin: 0 .5rem;
+}
+
+.skills .personal ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.skills .personal ul li {
+    margin-left: 2rem;
+    padding: .5rem
 }
 
 @media only screen and (min-width: 768px) {
     .skills {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem; /* Adicionei um espaçamento uniforme entre as colunas */
-    }
-
-    .skills .tools ul,
-    .skills .personal ul {
-        justify-content: flex-start; /* Alinha à esquerda em telas maiores */
-    }
-
-    .skills .tools ul li,
-    .skills .personal ul li {
-        flex: 1 1 auto; /* Volta ao comportamento original em telas maiores */
+        grid-template-columns: 1fr 1fr;
     }
 }
