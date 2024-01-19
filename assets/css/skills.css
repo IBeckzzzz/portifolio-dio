@@ -6,9 +6,6 @@
 .skills .tools ul,
 .skills .personal ul {
     display: flex;
-    flex-direction: row;
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    align-items: center;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
@@ -17,12 +14,10 @@
 
 .skills .tools ul li,
 .skills .personal ul li {
-    margin: 0 .5rem;
-    padding: .5rem;
-}
-
-.skills .personal ul li {
-    margin-left: 0.5rem; /* Reduzido o espaço à esquerda para melhorar o alinhamento */
+    margin: 0.5rem; /* Adicionei um espaçamento uniforme */
+    padding: 0.5rem;
+    text-align: center; /* Centraliza o texto */
+    flex: 1 1 calc(50% - 1rem); /* 50% de largura com espaçamento */
 }
 
 .skills .tools ul li img {
@@ -33,11 +28,17 @@
 @media only screen and (min-width: 768px) {
     .skills {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem; /* Adicionei um espaçamento uniforme entre as colunas */
     }
 
     .skills .tools ul,
     .skills .personal ul {
-        justify-content: flex-start; /* Volta ao alinhamento à esquerda em telas maiores */
+        justify-content: flex-start; /* Alinha à esquerda em telas maiores */
+    }
+
+    .skills .tools ul li,
+    .skills .personal ul li {
+        flex: 1 1 auto; /* Volta ao comportamento original em telas maiores */
     }
 }
