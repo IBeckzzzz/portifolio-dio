@@ -3,41 +3,57 @@
     flex-direction: column;
 }
 
-.skills .tools ul {
+.skills .tools ul,
+.skills .personal ul {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
+.skills .tools ul li,
+.skills .personal ul li {
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
 .skills .tools ul li img {
     max-width: 50px;
     max-height: 50px;
-    margin: 0 .5rem;
+    margin: 0.5rem 0;
 }
 
 .skills .personal ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 colunas com largura igual */
+    grid-template-rows: repeat(2, auto); /* 2 linhas com altura automática */
+    gap: 1rem; /* Espaçamento entre os itens */
+    margin-left: -1rem; /* Corrige o espaçamento à esquerda devido ao gap */
 }
 
 .skills .personal ul li {
-    margin-left: 2rem;
-    padding: .5rem
+    flex: 1 1 calc(20% - 1rem); /* Ajusta a largura de cada item para ocupar 20% da largura da coluna com espaçamento */
 }
 
 @media only screen and (min-width: 768px) {
     .skills {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .skills .personal ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        grid-template-columns: unset; /* Remove a configuração de grid nas telas maiores */
+        gap: 0; /* Remove o espaçamento entre os itens nas telas maiores */
+        margin-left: 0; /* Remove a correção do espaçamento à esquerda */
+    }
+
+    .skills .personal ul li {
+        flex: 1 1 auto; /* Volta ao comportamento original em telas maiores */
     }
 }
