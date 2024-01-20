@@ -71,18 +71,23 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+      "name": "Projeto Ministrado na DIO para a criação de uma Pokedex",
       "url": "https://ibeckzzzz.github.io/Pokedex/",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/IBeckzzzz/portifolio-dio.git",
+      "name": "Projeto Ministrado na Unicesumar para a criação de um programa de controle de parque",
+      "url": "https://github.com/IBeckzzzz/Gestao_Parque.Java",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de um jogo de nave",
-      "url": "https://github.com/IBeckzzzz/space-shooter.git",
+      "name": "Projeto Ministrado na DIO para a criação de um jogo de resgate",
+      "url": "https://ibeckzzzz.github.io/jogo-resgate/",
+      "github": true
+    },
+    {
+      "name": "Projeto Ministrado na DIO para a criação da Play-Store",
+      "url": "http://localhost:4200/#",
       "github": true
     }
   ],
