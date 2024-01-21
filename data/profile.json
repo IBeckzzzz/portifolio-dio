@@ -65,10 +65,7 @@
       "Empatia"
     ]
   },
-  "languages": [
-    "Português BR",
-    "Inglês (Básico)"
-  ],
+  "languages": ["Português BR", "Inglês (Básico)"],
   "portfolio": [
     {
       "name": "Projeto Ministrado na DIO para a criação de uma Pokedex",
@@ -98,8 +95,13 @@
   ],
   "professionalExperience": [
     {
+      "name": "Gerente de Suporte Técnico de Tecnologia da Informação / Sisand Soluções em Sistemas de Gestão Ltda.",
+      "period": "2023 - até o momento",
+      "description": "É uma satisfação colaborar ao lado de colegas tão dedicados, buscando compreender minuciosamente as necessidades dos nossos clientes em relação ao ERP. Diariamente, enfrentamos uma variedade de desafios, solucionando questões com agilidade e comprometimento. Além disso, realizamos testes meticulosos para isolar problemas, garantindo a entrega de soluções eficientes e de alta qualidade. Juntos, estamos contribuindo para o sucesso contínuo da nossa equipe e para a satisfação dos nossos clientes."
+    },
+    {
       "name": "Estagiário de Tecnologia e Inovação / Rottas Construtora e Incorporadora Ltda.",
-      "period": "2022 - até o momento",
+      "period": "2022 - 2023",
       "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e implantar tantas inovações na empresa como a intranet(sharepoint), criação de apps e fluxos através da power plataform(microsoft) e a participação da implantação do sistema ERP(Enterprise Resource Planning) na empresa."
     }
   ]
