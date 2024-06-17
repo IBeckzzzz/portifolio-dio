@@ -1,0 +1,11 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Este é um projeto de portfólio desenvolvido utilizando Angular, CSS, JavaScript e HTML. O objetivo deste projeto é criar um site para exibir seu portfólio pessoal, destacando suas habilidades, experiências profissionais e projetos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
