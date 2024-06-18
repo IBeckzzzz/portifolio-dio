@@ -66,4 +66,6 @@
     padding: 10px; /* Ajuste o padding conforme necessário */
     border: 1px solid #ccc; /* Adiciona borda quando o conteúdo estiver aberto */
     border-top: none;
+    border-bottom-left-radius: 1rem; /* Adiciona border-radius ao canto inferior esquerdo */
+    border-bottom-right-radius: 1rem; /* Adiciona border-radius ao canto inferior direito */
 }
