@@ -37,6 +37,7 @@
 .acordeon .trigger:hover {
     cursor: pointer;
     background-color: #444589; /* Cor de fundo ao passar o mouse */
+    border-radius: 3px;
 }
 
 .acordeon .trigger::after {
