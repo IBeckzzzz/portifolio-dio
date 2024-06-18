@@ -64,4 +64,6 @@
 .acordeon.open .content {
     max-height: 500px; /* Valor suficientemente grande para conter o conteúdo */
     padding: 10px; /* Ajuste o padding conforme necessário */
+    border: 1px solid #ccc; /* Adiciona borda quando o conteúdo estiver aberto */
+    border-top: none;
 }
