@@ -1,9 +1,9 @@
 {
   "name": "Thiago Beck de Andrade",
   "photo": "https://avatars.githubusercontent.com/u/114706247?v=4",
-  "job": "Analista de Suporte Técnico de Tecnologia da Informação",
+  "job": "Front end II",
   "location": "São José dos Pinhais - PR",
-  "phone": "(41) 99231-8497",
+  "phone": "55 (41) 99231-8497",
   "email": "thiagobeck35@gmail.com",
   "skills": {
     "hardSkills": [
@@ -98,8 +98,19 @@
   ],
   "professionalExperience": [
     {
+      "name": "Desenvolvedor Front End 2 - Evonline Marketing Digital",
+      "period": "2024 - atual",
+      "description": [
+      "Tenho experiência na instalação e configuração de sites em WordPress, desde projetos simples até estruturas mais robustas.",
+      "Atuo na criação e gerenciamento de bancos de dados, garantindo performance e segurança para os sistemas desenvolvidos.",
+      "Desenvolvo sites institucionais, one pages e lojas virtuais utilizando o Elementor Pro e o plugin WooCommerce, com foco em usabilidade, design responsivo e conversão.",
+      "Ofereço suporte técnico contínuo e ajustes personalizados em sites de clientes, otimizando seu funcionamento conforme necessidades específicas.",
+      "Realizo treinamentos personalizados para capacitar os clientes na administração de seus próprios sites, proporcionando autonomia e eficiência na gestão de conteúdo."
+      ]"]
+    },
+    {
       "name": "Analista de Suporte Jr N2 / Stefanini Group.",
-      "period": "2024 - até o momento",
+      "period": "2024 - 2024",
       "description": ["É uma satisfação colaborar com uma equipe dedicada, focada em entender minuciosamente as necessidades dos clientes em relação aos equipamentos e sistemas de TI.",
       "Rollout e Atualização de Equipamentos: Responsável pela implementação e atualização de notebooks Dell Latitude (modelos 5400, 5480, 5490) e dispositivos Mac, assegurando uma transição suave e eficiente.",
       "Gerenciamento de Ativos: Atualização e controle de ativos na plataforma ServiceNow, garantindo a precisão e a integridade dos dados.",
